@@ -1,0 +1,34 @@
+build
+.god
+.git
+.cache
+compile_commands.json
+
+
+# fpc stuff
+.fpc
+fpc
+fpc.dSYM
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+build/
+DerivedData/
+*.xcuserstate
+
+# Icon files
+Icon?
+
+# Added by cargo
+/target
